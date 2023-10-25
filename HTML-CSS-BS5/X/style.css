@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col1 {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+}
+
+.col2{
+    float: right;
+    width: 50%;
+    height: 500px;
+    background-color:blueviolet;
+}
