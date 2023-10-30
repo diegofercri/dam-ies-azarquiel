@@ -6,7 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .col1 {
     width: 50%;
     height: 100%;
@@ -40,4 +39,46 @@ footer {
     height: 18px;
     position: fixed;
     bottom: 0;
+}
+
+.title {
+    font-size: 58pt;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: 1px solid #d8e0e4;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-blue {
+    background-color: #1d9bf0;
+    border: 0;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
 }
