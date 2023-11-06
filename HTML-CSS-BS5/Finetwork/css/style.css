@@ -22,17 +22,32 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
+p, a {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
 .row {
     display: flex;
     flex-direction: row;
 }
 
 .right {
-    width: 50%;
+    width: 60%;
     padding: 40px 140px 0 60px;
     background-image: url(../img/chica.jpg);
     background-size: cover;
     color: white;
+}
+
+.container {
+    width: 60%;
+}
+
+.container p {
+    text-shadow: black -0.5px 0px, black 0px 0.5px, black 0.5px 0px, black 0px -0.5px;
 }
 
 .right h1 {
@@ -42,12 +57,99 @@ h1 {
 }
 
 .left {
-    width: 50%;
+    width: 40%;
     padding: 40px 140px 0 60px;
 
 }
 
-h2 {
+.form {
+    width: 85%;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 73%;
+}
+
+#btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-bottom: 3px solid #9e89ff;
+    color: rgb(95, 10, 255);
+    cursor: pointer;
+}
+
+#btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-bottom: 3px solid white;
+    color: #9e89ff;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    color: rgb(95, 10, 255);
+}
+
+#btn1, #btn2 a {
+    padding: 9px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.field {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.field label {
+    font-weight: bold;
+}
+
+.field input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    padding-left: 14px;
+}
+
+.text-little {
+    font-size: 9pt;
+    color: black;
+}
+
+.text-purple {
+    color: #9e89ff;
+}
+
+.submit {
+    border-style: none;
+    background-color: rgb(95, 10, 255);
+    color: white;
+    height: 55px;
+    width: 50%;
     font-size: 15px;
-    font-weight: 300;
+}
+
+.margin-5-top {
+    margin-top: 5px;
+}
+
+.margin-15-top {
+    margin-top: 15px;
+}
+
+.margin-30-top {
+    margin-top: 30px;
 }
