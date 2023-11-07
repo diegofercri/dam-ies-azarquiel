@@ -35,7 +35,7 @@ p, a {
 }
 
 .right {
-    width: 60%;
+    width: 55%;
     padding: 40px 140px 0 60px;
     background-image: url(../img/chica.jpg);
     background-size: cover;
@@ -43,7 +43,7 @@ p, a {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
 }
 
 .container p {
@@ -57,13 +57,12 @@ p, a {
 }
 
 .left {
-    width: 40%;
+    width: 45%;
     padding: 40px 140px 0 60px;
 
 }
 
 .form {
-    width: 85%;
     margin-top: 40px;
 }
 
