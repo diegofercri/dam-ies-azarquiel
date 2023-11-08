@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 25px;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #ffffff;
+    border-style: none;
+    box-shadow: 0px 0px 10px #CCCCCC;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f6f6f6;
+}
+
+.btn-2 {
+    background-color: #000000;
+    border-style: none;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 120px;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #333333;
+}
+
+#background {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    background-image: url('../img/fondo1.svg');
+    background-size: cover;
+    width: 50%;
+    height: 1020px;
+}
+.img2 {
+    background-image: url('../img/fondo2.svg');
+    background-size: cover;
+    width: 50%;
+    height: 1020px;
+}
+
+#img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52%;
+}
