@@ -12,6 +12,16 @@ body {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0.6vw;
+    height: 0.6vw;
+    background: linear-gradient(#dd41f6,#4cdbff);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #404040;
+}
+
 header {
     width: 100%;
     background-color: #ffffff;
