@@ -24,6 +24,10 @@ header {
     border-bottom: 2px solid #EEEEEE;
 }
 
+main {
+    padding: 20px;
+}
+
 #logo {
     cursor: pointer;
 }
@@ -129,3 +133,66 @@ header {
     padding: 15px;
 }
 
+#imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title-imagenes {
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+    width: 32%;
+    cursor: pointer;
+}
+
+.link {
+    font-size: 16px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+#categorias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f6f0ea;
+    height: 75px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.elemento a {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.elemento img {
+    height: 100%;
+}
