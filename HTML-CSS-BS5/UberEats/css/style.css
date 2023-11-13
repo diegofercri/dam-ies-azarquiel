@@ -108,6 +108,12 @@ header {
     width: 500px;
     height: 55px;
     font-size: 15px;
+    padding: 0 50px;
+    background-image: url(../img/map-market.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+    background-position-x: 15px;
 }
 
 #btn-buscar {
@@ -122,3 +128,4 @@ header {
     cursor: pointer;
     padding: 15px;
 }
+
