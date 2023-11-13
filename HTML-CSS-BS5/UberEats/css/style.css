@@ -1,5 +1,11 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto.woff2);
+}
+
 body {
     margin: 0;
+    font-family: roboto;
 }
 
 * {
@@ -7,6 +13,8 @@ body {
 }
 
 header {
+    width: 100%;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +28,7 @@ header {
     cursor: pointer;
 }
 
-.btn {
+#btn {
     background-color: #ffffff;
     border-style: none;
     box-shadow: 0px 0px 10px #CCCCCC;
@@ -31,11 +39,12 @@ header {
     cursor: pointer;
 }
 
-.btn:hover {
+#btn:hover {
     background: #f6f6f6;
+    cursor: pointer;
 }
 
-.btn-2 {
+#btn-2 {
     background-color: #000000;
     border-style: none;
     height: 50px;
@@ -47,31 +56,69 @@ header {
     cursor: pointer;
 }
 
-.btn-2:hover {
+#btn-2:hover {
     background: #333333;
+    cursor: pointer;
 }
 
 #background {
+    position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff2d8;
+    height: 600px;
 }
 
-.img1 {
+#img1 {
     background-image: url('../img/fondo1.svg');
-    background-size: cover;
+    background-repeat: no-repeat;
     width: 50%;
-    height: 1020px;
-}
-.img2 {
-    background-image: url('../img/fondo2.svg');
-    background-size: cover;
-    width: 50%;
-    height: 1020px;
 }
 
 #img2 {
+    background-image: url('../img/fondo2.svg');
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position-x: right;
+}
+
+#buscar {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 52%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#buscar a {
+    text-align: center;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#field-buscar {
+    border-style: none;
+    width: 500px;
+    height: 55px;
+    font-size: 15px;
+}
+
+#btn-buscar {
+    border-style: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 55px;
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 15px;
 }
