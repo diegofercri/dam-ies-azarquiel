@@ -3,6 +3,20 @@
     src: url(../font/Gilroy-Regular.woff2);
 }
 
+::-webkit-scrollbar {
+    width: 0.6vw;
+    height: 0.6vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a744ed;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #000000;
@@ -11,8 +25,10 @@ body {
 }
 
 header {
+    position: fixed;
     height: 50px;
-    background-color: #0000007f;
+    width: 100%;
+    background-color: #00000089;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,18 +40,18 @@ header {
     height: 30px;
 }
 
-nav {
+header nav {
     width: 65%;
 }
 
-nav ul {
+header nav ul {
     padding-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-nav ul li{
+header nav ul li{
     list-style: none;
     display: inline;
     border-radius: 20px;
@@ -43,13 +59,11 @@ nav ul li{
     padding: 5px 10px;
 }
 
-nav ul li:hover {
-    border-radius: 20px;
-    border: solid 2px #a744ed;
-    padding: 5px 10px;
+header nav ul li:hover {
+    border-color: #a744ed;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     display: block;
     color: #ffffff;
@@ -64,6 +78,7 @@ nav ul li a {
     padding: 5px 20px;
     letter-spacing: 1px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 #monedas {
@@ -101,4 +116,77 @@ nav ul li a {
     font-size: 15px;
     text-align: center;
     margin: 12px 0;
+}
+
+#destacados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-imagenes {
+    width: 25%;
+    margin: 0 10px;
+}
+
+.col-imagenes img {
+    width: 100%;
+}
+
+.col-imagenes div {
+    margin: 15px 0;
+}
+
+footer {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #040426;
+    color: #7765c9;
+}
+
+footer nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav ul li{
+    list-style: none;
+    display: inline;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #7765c9;
+}
+
+footer nav ul li a:hover {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#copy-diego {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #00000089;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
