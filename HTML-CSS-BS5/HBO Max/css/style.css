@@ -1,0 +1,104 @@
+@font-face {
+    font-family: gilroy-regular;
+    src: url(../font/Gilroy-Regular.woff2);
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: gilroy-regular;
+}
+
+header {
+    height: 50px;
+    background-color: #0000007f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.logo {
+    height: 30px;
+}
+
+nav {
+    width: 65%;
+}
+
+nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    border-radius: 20px;
+    border: solid 2px #00000000;
+    padding: 5px 10px;
+}
+
+nav ul li:hover {
+    border-radius: 20px;
+    border: solid 2px #a744ed;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+
+#suscribete {
+    border-style: none;
+    background-color: #a744ed;
+    height: 35px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#monedas {
+    background-image: url(../img/30coins.avif);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 150px;
+}
+
+#p1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+#p2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px 0;
+}
+
+#p3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 12px 0;
+}
