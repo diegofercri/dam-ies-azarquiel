@@ -179,6 +179,7 @@ p {
     background-image: url(/McDonalds/img/gotas.png);
     height: 200px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
+    justify-content: space-evenly;
 }
