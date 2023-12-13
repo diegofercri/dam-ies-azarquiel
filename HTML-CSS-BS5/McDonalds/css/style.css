@@ -207,7 +207,11 @@ p {
 }
 
 hr {
-    width: 90%;
-    margin: 0 40px;
+    margin: 0 100px;
 }
 
+#container-copy {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
