@@ -6,9 +6,19 @@ body {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0.6vw;
+    height: 0.6vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffbc0f;
+}
+
+
 a {
     text-decoration: none;
-    color: black;
+    color: #565656;
     font-size: 17px;
 }
 
@@ -29,7 +39,7 @@ ul li {
     float: left;
     list-style-type: none;
     position: relative;
-    padding: 6px;
+    padding: 6px 6px 0px 6px;
 }
 
 ul li:hover {
@@ -43,6 +53,34 @@ ul li ul {
 
 ul li:hover ul {
     display: block;
+}
+
+.desplegable {
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: -10px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.productos {
+    background-color: #ffffff;
+    border: 2px solid #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.productos img {
+    height: 100%;
+}
+
+.productos:hover {
+    background-color: #ffbc0f;
 }
 
 .btn-naranja {
@@ -173,11 +211,6 @@ p {
     color: #545454;
 }
 
-#container3-1 a {
-    font-size: 21px;
-    font-weight: bold;
-}
-
 #container-naranja {
     background-color: #ffbc0f;
     display: flex;
@@ -204,6 +237,12 @@ p {
     background-image: url(../img/gotas.png);
     height: 63px;
     background-size: contain;
+}
+
+#siguenos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr {
