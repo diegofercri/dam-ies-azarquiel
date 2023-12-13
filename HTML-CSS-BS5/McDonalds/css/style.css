@@ -45,6 +45,14 @@ ul li:hover ul {
     display: block;
 }
 
+.btn-naranja {
+    background-color: #ffbc0f;
+    border-style: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
 #pedir {
     background-color: #ffbc0f;
     border-style: none;
@@ -78,7 +86,7 @@ ul li:hover ul {
     margin-bottom: 20px;
 }
 
-#descubrir {
+.btn-gris {
     background-color: #dcdcdc;
     color: #808080;
     padding: 20px 50px;
@@ -88,7 +96,7 @@ ul li:hover ul {
 }
 
 #container {
-    margin: 40px;
+    margin: 40px 100px;
 }
 
 #container1, #container2 {
@@ -128,15 +136,10 @@ ul li:hover ul {
     width: 33%;
 }
 
-.tarjeta button {
+.btn-absolute {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    background-color: #ffbc0f;
-    border-style: none;
-    border-radius: 6px;
-    padding: 10px 30px;
-    font-size: 20px;
 }
 
 .tarjeta img {
@@ -167,19 +170,44 @@ p {
     justify-content: center;
     align-items: start;
     width: 60%;
+    color: #545454;
 }
 
 #container3-1 a {
     font-size: 21px;
-    color: #545454;
     font-weight: bold;
 }
 
-#fondo-imagen2 {
-    background-image: url(/McDonalds/img/gotas.png);
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
+#container-naranja {
+    background-color: #ffbc0f;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
+#container-naranja-2 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 110px;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+#gotas {
+    background-image: url(../img/gotas.png);
+    height: 63px;
+    background-size: contain;
+}
+
+hr {
+    width: 90%;
+    margin: 0 40px;
+}
+
