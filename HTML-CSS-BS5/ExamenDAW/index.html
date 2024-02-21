@@ -88,9 +88,9 @@
         </header>
         <main>
             <section>
-                <div class="d-flex flex-wrap justify-content-center align-items-center">
+                <div class="d-flex flex-wrap justify-content-center align-items-center mt-4">
                     <div class="d-flex justify-content-center col-xs-12 col-md-6">
-                        <img src="img/burger.png" alt="burguer" class="w-75">
+                        <img src="img/burger.png" alt="burguer" class="w-100 m-4">
                     </div>
                     <div class="d-flex justify-content-center col-xs-12 col-md-6">
                         <div class="w-75">
@@ -103,7 +103,7 @@
                 </div>
             </section>
             <section>
-                <div class="d-flex flex-wrap justify-content-center mt-5">
+                <div class="d-flex flex-wrap justify-content-center mt-4">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="card align-items-center m-2">
                             <h2 class="card-title fw-bold text-warning mt-2">MENÚS</h2>
@@ -130,9 +130,107 @@
                     </div>
                 </div>
             </section>
+            <section>
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                    <ol class="carousel-indicators list-unstyled">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="first slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="second slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/carrusel1.jpeg" class="w-100 d-block" alt="first slide" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel2.jpg" class="w-100 d-block" alt="second slide" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
         </main>
-        <footer>
-            <!-- place footer here -->
+        <footer class="bg-dark border-0">
+            <section>
+                <div class="card border-0">
+                    <img src="img/bg.jpg" alt="" class="img-fluid">
+                    <img src="img/logo-footer.png" alt="" class="img-fluid card-img-overlay m-auto w-25 ">
+                </div>
+            </section>
+            <section class="mt-4">
+                <div class="container">
+                    <div class="row mx-auto">
+                        <div class="col-xs-12 col-sm-4 mb-4 mx-auto">
+                            <div class="card border-0 rounded bg-dark text-center">
+                                <a href="#" class="nav-link">
+                                    <div>
+                                        <i class="fa fa-map-marker fa-2x px-2 bg-warning rounded-circle text-center"
+                                            aria-hidden="true"></i>
+                                    </div>
+                                    <div class="card-body text-white text-center">
+                                        <p class="nav-link my-0">CENTRAL</p>
+                                        <p class="nav-link my-0">C/Santa Lucia 3</p>
+                                        <p class="nav-link my-0">Mérida - Badajoz</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 mb-4 mx-auto">
+                            <div class="card border-0 rounded bg-dark text-center">
+                                <a href="#" class="nav-link">
+                                    <div>
+                                        <i class="fa fa-phone fa-2x px-2 bg-warning rounded-circle text-center"
+                                            aria-hidden="true"></i>
+                                    </div>
+                                    <div class="card-body text-white text-center">
+                                        <p class="nav-link my-0">LLÁMANOS AL</p>
+                                        <p class="nav-link my-0">924 30 15 48</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 mb-4 mx-auto">
+                            <div class="card border-0 rounded bg-dark text-center">
+                                <a href="#" class="nav-link">
+                                    <div>
+                                        <i class="fa fa-envelope fa-2x px-2 bg-warning rounded-circle text-center"
+                                            aria-hidden="true"></i>
+                                    </div>
+                                    <div class="card-body text-white text-center">
+                                        <p class="nav-link my-0">EMAIL</p>
+                                        <p class="nav-link my-0">info@35burger.com</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-warning">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-9">
+                            <nav class="navbar navbar-expand navbar-dark">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">&copy; Diego Fernández</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-3 text-lg-end text-white">
+                            <a href="#" class="text-white"><i class="fa fa-facebook fa-2x mx-3" aria-hidden="true"></i></a>
+                            <a href="#" class="text-white"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
