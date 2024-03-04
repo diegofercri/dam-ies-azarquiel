@@ -1,264 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Burguer King</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+<head>
+  <title>Burguer King</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md bg-beige">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/logoBK.svg" alt="Logo" style="height: 80px;"/>
-          </a>
-          <button
-            class="navbar-toggler d-lg-none"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse bg-beige text-marron"
-            id="collapsibleNavId"
-          >
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-marron" href="#">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-marron" href="#">CARTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-marron" href="#">ORIGINALS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-marron" href="#">NOVEDADES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-marron" href="#">VEGETARIANO</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle fw-bold text-marron"
-                  href="#"
-                  id="dropdownId"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >BURGUER KING</a
-                >
-                <div
-                  class="dropdown-menu bg-beige"
-                  aria-labelledby="dropdownId"
-                >
-                  <a class="dropdown-item fw-bold text-marron" href="#"
-                    >Quienes Somos</a
-                  >
-                  <a class="dropdown-item fw-bold text-marron" href="#"
-                    >Términos y Condiciones</a
-                  >
-                  <a class="dropdown-item fw-bold text-marron" href="#"
-                    >Política de Privacidad</a
-                  >
-                </div>
-              </li>
-            </ul>
-            <a class="btn btn-primary btn-sm btn-danger" href="#" role="button"
-              >INICIA SESION</a
-            >
-          </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-beige">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logoBK.svg" alt="Logo" style="height: 80px;" />
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-beige text-marron" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-marron" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-marron" href="#">CARTA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-marron" href="#">ORIGINALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-marron" href="#">NOVEDADES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-marron" href="#">VEGETARIANO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold text-marron" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">BURGUER KING</a>
+              <div class="dropdown-menu bg-beige" aria-labelledby="dropdownId">
+                <a class="dropdown-item fw-bold text-marron" href="#">Quienes Somos</a>
+                <a class="dropdown-item fw-bold text-marron" href="#">Términos y Condiciones</a>
+                <a class="dropdown-item fw-bold text-marron" href="#">Política de Privacidad</a>
+              </div>
+            </li>
+          </ul>
+          <a class="btn btn-primary btn-sm btn-danger" href="#" role="button">INICIA SESION</a>
         </div>
-      </nav>
-    </header>
-    <main class="bg-beige">
-      <section>
-        <div
-          id="carouselId"
-          class="carousel slide"
-          data-bs-ride="carousel"
-          data-bs-interval="2090"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators list-unstyled">
-            <li
-              data-bs-target="#carouselId"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="First slide"
-            ></li>
-            <li
-              data-bs-target="#carouselId"
-              data-bs-slide-to="1"
-              aria-label="Second slide"
-            ></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img
-                src="img/carrusel1.jpg"
-                class="w-100 d-block"
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/carrusel2.jpg"
-                class="w-100 d-block"
-                alt="Second slide"
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselId"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselId"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-      <section>
-        <div class="card">
-          <img src="img/fondo_hambur.png" class="card-img" alt="Hamburguesa">
-          <div class="card-img-overlay m-md-5">
-            <h5 class="card-title display-4 display-md-2 fw-bold mb-3 mb-md-5">¿QUÉ TE APETECE HOY?</h5>
-            <a class="btn btn-primary btn-sm btn-danger card-text" href="#" role="button">PIDE AHORA</a>
-          </div>
-        </div>
-      </section>      
-      <section>
-          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-0 justify-content-center">
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/0.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/1.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/2.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/3.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/4.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/5.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/6.jpg" alt="img0" />
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top rounded-2" src="img/7.jpg" alt="img0" />
-              </div>
-            </div>
-          </div>
-      </section>
-    </main>
-    <footer class="bg-marron">
-      <div class="d-flex justify-content-between p-3 bg-marron text-beige container">
-        <div class="vr"></div>
-        <div>PREGUNTAS<br>FRECUENTES</div>
-        <div class="vr"></div>
-        <div>OPINIONES Y<br>SUGERENCIAS</div>
-        <div class="vr"></div>
-        <div>AVISO LEGAL</div>
-        <div class="vr"></div>
-        <div>CONDICIONES<br>GENERALES</div>
-        <div class="vr"></div>
-        <div>POLÍTICAS DE<br>PRIVACIDAD</div>
-        <div class="vr"></div>
-        <div>COOKIES</div>
-        <div class="vr"></div>
       </div>
-      <div class="bg-beige p-3">
+    </nav>
+  </header>
+  <main class="bg-beige">
+    <section>
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2090" data-ride="carousel">
+        <ol class="carousel-indicators list-unstyled">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="First slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="img/carrusel1.jpg" class="w-100 d-block" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel2.jpg" class="w-100 d-block" alt="Second slide" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="d-flex justify-content-between p-3 bg-marron text-beige container">
-        <div class="d-flex align-items-center">
-          <h1><i class="fa fa-phone" aria-hidden="true"></i></h1>
-          <h6 class="m-3">Teléfono: 911 933 933</h6>
+    </section>
+    <section>
+      <div class="card">
+        <img src="img/fondo_hambur.png" class="card-img" alt="Hamburguesa">
+        <div class="card-img-overlay m-md-5">
+          <h5 class="card-title display-4 display-md-2 fw-bold mb-3 mb-md-5">¿QUÉ TE APETECE HOY?</h5>
+          <a class="btn btn-primary btn-sm btn-danger card-text" href="#" role="button">PIDE AHORA</a>
         </div>
-        <div>
-          <h6>TM & 2024 Burguer King Corporation. Todos los derechos reservados</h6>
+      </div>
+    </section>
+    <section>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-0 justify-content-center">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/0.jpg" alt="img0" />
+          </div>
         </div>
-        <div class="d-flex gap-3">
-          <a href="#" class="text-beige">
-            <h1><i class="fa fa-twitter" aria-hidden="true"></i></h6>
-          </a>
-          <a href="#" class="text-beige">
-            <h1><i class="fa fa-instagram" aria-hidden="true"></i></h6>
-          </a>
-          <a href="#" class="text-beige">
-            <h1><i class="fa fa-youtube" aria-hidden="true"></i></h6>
-          </a>
-          <a href="#" class="text-beige">
-            <h1><i class="fa fa-facebook" aria-hidden="true"></i></h6>
-          </a>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/1.jpg" alt="img0" />
+          </div>
         </div>
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/2.jpg" alt="img0" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/3.jpg" alt="img0" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/4.jpg" alt="img0" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/5.jpg" alt="img0" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/6.jpg" alt="img0" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top rounded-2" src="img/7.jpg" alt="img0" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-marron">
+    <div class="d-flex justify-content-between p-3 bg-marron text-beige container">
+      <div class="vr"></div>
+      <div>PREGUNTAS<br>FRECUENTES</div>
+      <div class="vr"></div>
+      <div>OPINIONES Y<br>SUGERENCIAS</div>
+      <div class="vr"></div>
+      <div>AVISO LEGAL</div>
+      <div class="vr"></div>
+      <div>CONDICIONES<br>GENERALES</div>
+      <div class="vr"></div>
+      <div>POLÍTICAS DE<br>PRIVACIDAD</div>
+      <div class="vr"></div>
+      <div>COOKIES</div>
+      <div class="vr"></div>
+    </div>
+    <div class="bg-beige p-3">
+    </div>
+    <div class="d-flex justify-content-between p-3 bg-marron text-beige container">
+      <div class="d-flex align-items-center">
+        <h1><i class="fa fa-phone" aria-hidden="true"></i></h1>
+        <h6 class="m-3">Teléfono: 911 933 933</h6>
+      </div>
+      <div>
+        <h6>TM & 2024 Burguer King Corporation. Todos los derechos reservados</h6>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-beige">
+          <h1><i class="fa fa-twitter" aria-hidden="true"></i></h6>
+        </a>
+        <a href="#" class="text-beige">
+          <h1><i class="fa fa-instagram" aria-hidden="true"></i></h6>
+        </a>
+        <a href="#" class="text-beige">
+          <h1><i class="fa fa-youtube" aria-hidden="true"></i></h6>
+        </a>
+        <a href="#" class="text-beige">
+          <h1><i class="fa fa-facebook" aria-hidden="true"></i></h6>
+        </a>
+      </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
