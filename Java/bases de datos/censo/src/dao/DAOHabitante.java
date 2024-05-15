@@ -136,7 +136,7 @@ public class DAOHabitante {
 	public ArrayList<Habitante> getHabitantes() {
 		// Obtenemos la conexion a la BBDD
 		Connection conexion = new DBConnection().getConexion();
-		ArrayList<Habitante> Habitantes = new ArrayList<>();
+		ArrayList<Habitante> habitantes = new ArrayList<>();
 		
 		try {
 			// Usando un PreparedStatement
@@ -148,7 +148,7 @@ public class DAOHabitante {
 			ResultSet resultado = sentencia.executeQuery();
 			
 			while (resultado.next()) {
-				Habitantes.add(new Habitante(resultado.getString(1), resultado.getString(2), resultado.getInt(3), resultado.getString(4)));
+				habitantes.add(new Habitante(resultado.getString(1), resultado.getString(2), resultado.getInt(3), resultado.getString(4)));
 			}
 			
 			// Cerramos la conexion
@@ -160,13 +160,13 @@ public class DAOHabitante {
 			e.printStackTrace();
 		}
 		
-		return Habitantes;
+		return habitantes;
 	}
 	
 	public ArrayList<Habitante> getHabitantesPorPoblacion(String nombre) {
 		// Obtenemos la conexion a la BBDD
 		Connection conexion = new DBConnection().getConexion();
-		ArrayList<Habitante> Habitantes = new ArrayList<>();
+		ArrayList<Habitante> habitantes = new ArrayList<>();
 		
 		try {
 			// Usando un PreparedStatement
@@ -179,7 +179,7 @@ public class DAOHabitante {
 			ResultSet resultado = sentencia.executeQuery();
 			
 			while (resultado.next()) {
-				Habitantes.add(new Habitante(resultado.getString(1), resultado.getString(2), resultado.getInt(3), resultado.getString(4)));
+				habitantes.add(new Habitante(resultado.getString(1), resultado.getString(2), resultado.getInt(3), resultado.getString(4)));
 			}
 			
 			// Cerramos la conexion
@@ -191,7 +191,7 @@ public class DAOHabitante {
 			e.printStackTrace();
 		}
 		
-		return Habitantes;
+		return habitantes;
 	}
 	
 	public Habitante getHabitante(String nombre) {
