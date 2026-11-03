@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-vo {
+    background-color: #295b35;
+}
+
+.bg-vc {
+    background-color: #297b3c;
+}
+
+.bg-ff {
+    background-color: #fff;
+}
+
+.link {
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 94%;
+    margin: 0vh auto;
+    padding: 1.5vh 0;
+}
+
+.gap{
+    gap: .5rem;
+}
+
+.nav-list {
+    padding-left: 2rem;
+}
+
+.nav-list__link {
+    color: #909090;
+    padding: 1.5rem;
+}
+
+.nav-list__link:hover {
+    color: #297b3c;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.dropdown-list__link {
+    width: 280px;
+    color: #909090;
+    padding: .8rem 1.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.dropdown-list__link:hover {
+    background-color: #e0e0e0;
+}
+
+#bg-busta {
+    position: relative;
+    background-image: url(../img/coviran-bustamante.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    overflow: hidden;
+}
+
+@keyframes imgLoad {
+    0% {
+        opacity: 0;
+        height: 0;
+        transform: scale(0);
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 1;
+        height: 20vh;
+        transform: scale(1);
+        transform: translate(-50%, 0);
+    }
+}
+
+#fanta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(500%, -50%);
+    transition: all 1s;
+}
+
+#bg-busta:hover #fanta {
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    background-color: #fff;
+    height: 50vh;
+    margin: 1rem 0;
+}
+
+.hover-div {
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.card:hover .hover-div {
+    opacity: .3;
+}
+
+.card a {
+    margin: 5% 2%;
+}
+
+.masinfo a {
+    width: 25%;
+    margin: 0 .5rem;
+    padding: 2vh 1rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.patros {
+    padding: 2rem 0;
+}
+
+.patros a {
+    color: #fff;
+}
+
+.patros img {
+    width: 70%;
+    margin: 0 auto;
+}
