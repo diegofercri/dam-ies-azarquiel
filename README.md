@@ -1,6 +1,6 @@
-# learning
+# dam-ies-azarquiel
 
-Coursework from my teachers at IES Azarquiel, merged from 11 separate repositories. Each folder keeps the full commit history of the repository it came from.
+My coursework from the two-year DAM vocational degree (Multiplatform Application Development) at IES Azarquiel, 2023-2025, merged from 11 separate repositories. Each folder keeps the full commit history of the repository it came from.
 
 | Folder | Topic | Period |
 |---|---|---|
